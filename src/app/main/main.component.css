@@ -1,0 +1,30 @@
+.container {
+    padding: 5px;
+
+    background-image: url("src\assets\images\background.jpg");
+    background-size: contain;
+}
+
+
+.container-center {
+    margin: 10rem 14rem;
+    color: white;
+}
+
+.container-cards {
+    background: #37384b;
+    padding: 40px 50px;
+}
+
+h1,
+h2 {
+    color: #fff
+}
+
+
+.cards {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+}

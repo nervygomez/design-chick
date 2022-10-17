@@ -1,0 +1,20 @@
+<div class="container">
+
+
+
+    <div class="container-center">
+        <h1 style="margin-bottom: 5px;">Condimentum consectetur</h1>
+        <div style="display: flex; justify-content: space-around; margin-bottom: 10px;">
+            <select>
+                <option>Select a game</option>
+            </select>
+            <input placeholder="search" />
+        </div>
+        <div class="container-cards">
+            showing 20 - from 125
+            <div class="cards">
+                <card *ngFor="let i of cards"></card>
+            </div>
+        </div>
+    </div>
+</div>
